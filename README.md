@@ -1,51 +1,42 @@
 # Encapsulamiento-GET-SET
 
-## Table of Contents
-1. [General Info](#general-info)
-2. [Technologies](#technologies)
-3. [Installation](#installation)
-4. [Collaboration](#collaboration)
-5. [FAQs](#faqs)
-### General Info
-***
-Write down the general informations of your project. It is worth to always put a project status in the Readme file. This is where you can add it. 
-### Screenshot
-![Image text](https://www.united-internet.de/fileadmin/user_upload/Brands/Downloads/Logo_IONOS_by.jpg)
-## Technologies
-***
-A list of technologies used within the project:
-* [Technologie name](https://example.com): Version 12.3 
-* [Technologie name](https://example.com): Version 2.34
-* [Library name](https://example.com): Version 1234
-## Installation
-***
-A little intro about the installation. 
-```
-$ git clone https://example.com
-$ cd ../path/to/the/file
-$ npm install
-$ npm start
-```
-Side information: To use the application in a special environment use ```lorem ipsum``` to start
-## Collaboration
-***
-Give instructions on how to collaborate with your project.
-> Maybe you want to write a quote in this part. 
-> It should go over several rows?
-> This is how you do it.
-## FAQs
-***
-A list of frequently asked questions
-1. **This is a question in bold**
-Answer of the first question with _italic words_. 
-2. __Second question in bold__ 
-To answer this question we use an unordered list:
-* First point
-* Second Point
-* Third point
-3. **Third question in bold**
-Answer of the third question with *italic words*.
-4. **Fourth question in bold**
-| Headline 1 in the tablehead | Headline 2 in the tablehead | Headline 3 in the tablehead |
-|:--------------|:-------------:|--------------:|
-| text-align left | text-align center | text-align right |
+## Notas
+
+//Las propiedades pueden ser Publicas(public) o Privadas(private),
+
+//Cuando nosotros podemos acceder desde fuera de una clase a sus propiedades directamente, estariamos diciendo que las
+    //propiedades son publicas.
+//Las propiedades pueden ser de 3 tipos, publica-privada-
+//Cual es la diferencia entre una propiedad publica y una propiedad privada? Una propiedad privada, solamente unica-
+    //mente y exclusivamente la podre utilizar en la implementación de la clase, dentro de la clase.
+// Y cuando es publica la podre utilizar tanto dentro de la clase, como en mi programa.
+//La encapsulacion, consiste en jugar con los tipos publicos y privados de forma que desde la clase los manipule y desde
+    //fuera de la clase los pueda utilizar.
+//Para encapsular debemos declarar las propiedades de la clase como privadas y luego nos inventamos una serie de funcio-
+    //nes. Dos funciones, por cada una de las propiedades. A esto lo llamamos GETTERS Y SETTERS.
+//Los llamamos GETTERS y SETTERS, por que estas funciones tienen como tarea modificar la propiedad o darnos el valor de
+    //la propiedad.
+
+//La funcion SETTER, acepta un parametro y cuyo unico cometido, asigan el valor que se le pasa como parametro a la
+    //propiedad de la clase.
+
+//La funcion GETTER, esta funcion no acepta parametros pero devuelve un texto. Y devuelve el texto de calse de la propie
+    //dad.
+
+//Se llama encapsulacion, porque estamos encapsulando las propiedades para acceder a ellas unicamente a traves de funcio
+    //nes.
+
+//No es obligatorio pero si uno tiene una variable de tipo "private", que se quiere acceder desde fuera de esa clase, no
+    //no desde la propia clase, si no desde fuera si se tiene que implementar el get y set.
+
+//El tema de public o private, se refiere a las propiedades que al fin y al cabo, por asi decirlo variables que pertene
+    //cen a una clase. Dentro de una clase no hay variables globales ni variables locales. Si no que hay variables de
+    //clase de la clase en si, o variables locales a una funcion.
+
+//Cuando tenemos un tipo de dato boolean, el seter es exactamente igual. Cuando implementamos un getter para un boolean
+    //el getter se llamara is seguido de la variable.
+
+//La encapsulacion conciste en que vamos a permitir que se modifiquen ciertas variables privadas de una clase a traves
+    //de metodos GET y SET.
+
+//La clase dentro de una funcion es metodo
