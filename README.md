@@ -2,10 +2,9 @@
 
 ## Notas
 
-//Las propiedades pueden ser Publicas(public) o Privadas(private),
+* Las propiedades pueden ser Publicas(public) o Privadas(private),
 
-//Cuando nosotros podemos acceder desde fuera de una clase a sus propiedades directamente, estariamos diciendo que las
-    //propiedades son publicas.
+* Cuando nosotros podemos acceder desde fuera de una clase a sus propiedades directamente, estariamos diciendo que las propiedades son publicas.
 //Las propiedades pueden ser de 3 tipos, publica-privada-
 //Cual es la diferencia entre una propiedad publica y una propiedad privada? Una propiedad privada, solamente unica-
     //mente y exclusivamente la podre utilizar en la implementación de la clase, dentro de la clase.
